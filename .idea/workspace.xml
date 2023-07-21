@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e7d1f17-9780-43e1-b604-74ef45d063e0" name="Changes" comment="deleted LessonOne class and create package LessonOne and TaskOne file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LessonOne/TaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LessonOne/TaskOne.java" afterDir="false" />
+    <list default="true" id="1e7d1f17-9780-43e1-b604-74ef45d063e0" name="Changes" comment="finished TaskOne and created taskTwo">
+      <change beforePath="$PROJECT_DIR$/src/main/java/LessonOne/taskTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LessonOne/taskTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TaskOne">
+  <component name="RunManager" selected="Application.taskTwo">
     <configuration name="Printer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Printer" />
       <module name="ExseptionLessonsHomeTask" />
@@ -67,8 +66,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="taskTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LessonOne.taskTwo" />
+      <module name="ExseptionLessonsHomeTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LessonOne.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.taskTwo" />
         <item itemvalue="Application.TaskOne" />
         <item itemvalue="Application.Printer" />
       </list>
@@ -97,12 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689916478399</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished TaskOne and created taskTwo">
+      <created>1689920256371</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689920256371</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start homework and create LessonOne" />
     <MESSAGE value="deleted LessonOne class and create package LessonOne and TaskOne file" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted LessonOne class and create package LessonOne and TaskOne file" />
+    <MESSAGE value="finished TaskOne" />
+    <MESSAGE value="finished TaskOne and created taskTwo" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished TaskOne and created taskTwo" />
   </component>
 </project>
