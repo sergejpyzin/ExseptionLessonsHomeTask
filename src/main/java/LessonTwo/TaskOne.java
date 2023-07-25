@@ -12,10 +12,10 @@ public class TaskOne {
 
     public static void main(String[] args) {
         String massage = "Введите число: ";
-        float numberFloat = requestFromUserVariantOne(massage);
-        System.out.println(numberFloat);
-        /*float floatNumber = requestFromUserVariantTwo(massage);
-        System.out.println(floatNumber);*/
+        /*float numberFloat = requestFromUserVariantOne(massage);
+        System.out.println(numberFloat);*/
+        float floatNumber = requestFromUserVariantTwo(massage);
+        System.out.println(floatNumber);
 
     }
 
@@ -43,17 +43,17 @@ public class TaskOne {
      */
     public static float requestFromUserVariantTwo(String massage) {
         Scanner scanner = new Scanner(System.in);
-        float result;
-        while (true) {
+        float result = 0;
+        boolean check = true;
+        while (check) {
             System.out.println(massage);
             try {
                 result = Float.parseFloat(scanner.next());
-                break;
+                check = false;
             } catch (NumberFormatException e) {
                 System.err.println("Неверный ввод.");
             }
         }
         return result;
     }
-
 }
