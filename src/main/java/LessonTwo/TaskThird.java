@@ -10,9 +10,9 @@ public class TaskThird {
             int[] abc = { 1, 2 };
             abc[3] = 9;
         } catch (NullPointerException ex) {
-            System.err.println("Указатель не может указывать на null!");
+            System.err.println("Указатель не может указывать на null! " + ex.getMessage());
         } catch (IndexOutOfBoundsException ex) {
-            System.err.println("Массив выходит за пределы своего размера!");
+            System.err.println("Массив выходит за пределы своего размера! " + ex.getMessage());
         } catch (Throwable ex) {
             System.err.println("Что-то пошло не так...");
         }
