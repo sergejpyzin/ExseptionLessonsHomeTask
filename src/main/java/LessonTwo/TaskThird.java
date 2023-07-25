@@ -1,7 +1,7 @@
 package LessonTwo;
 
 public class TaskThird {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args){
         try {
             int a = 90;
             int b = 3;
