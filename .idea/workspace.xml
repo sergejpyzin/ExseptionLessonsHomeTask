@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e7d1f17-9780-43e1-b604-74ef45d063e0" name="Changes" comment="started work TaskTwo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LessonTwo/TaskTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LessonTwo/TaskTwo.java" afterDir="false" />
+    <list default="true" id="1e7d1f17-9780-43e1-b604-74ef45d063e0" name="Changes" comment="start work TaskThird">
+      <change beforePath="$PROJECT_DIR$/src/main/java/LessonTwo/TaskThird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LessonTwo/TaskThird.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TaskTwo">
+  <component name="RunManager" selected="Application.TaskThird">
     <configuration name="LessonTwo.TaskOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LessonTwo.TaskOne" />
       <module name="ExseptionLessonsHomeTask" />
@@ -60,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LessonOne.TaskOne" />
+    <configuration name="TaskThird" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LessonTwo.TaskThird" />
       <module name="ExseptionLessonsHomeTask" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LessonOne.*" />
+          <option name="PATTERN" value="LessonTwo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TaskThird" />
         <item itemvalue="Application.TaskTwo" />
         <item itemvalue="Application.LessonTwo.TaskOne" />
         <item itemvalue="Application.taskThree" />
         <item itemvalue="Application.taskTwo" />
-        <item itemvalue="Application.TaskOne" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +200,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690267222043</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="changed work TaskTwo">
+      <created>1690271430696</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690271430696</updated>
+    </task>
+    <task id="LOCAL-00012" summary="start work TaskThird">
+      <created>1690271525945</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1690271525945</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -215,6 +228,8 @@
     <MESSAGE value="finished LessonTwo.TaskOne" />
     <MESSAGE value="changed requestFromUserVariantTwo as entering a boolean variable" />
     <MESSAGE value="started work TaskTwo" />
-    <option name="LAST_COMMIT_MESSAGE" value="started work TaskTwo" />
+    <MESSAGE value="changed work TaskTwo" />
+    <MESSAGE value="start work TaskThird" />
+    <option name="LAST_COMMIT_MESSAGE" value="start work TaskThird" />
   </component>
 </project>
