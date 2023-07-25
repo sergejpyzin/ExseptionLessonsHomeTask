@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e7d1f17-9780-43e1-b604-74ef45d063e0" name="Changes" comment="finished LessonTwo.TaskOne">
+    <list default="true" id="1e7d1f17-9780-43e1-b604-74ef45d063e0" name="Changes" comment="started work TaskTwo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LessonTwo/TaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LessonTwo/TaskOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LessonTwo/TaskTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LessonTwo/TaskTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LessonTwo.TaskOne">
+  <component name="RunManager" selected="Application.TaskTwo">
     <configuration name="LessonTwo.TaskOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LessonTwo.TaskOne" />
       <module name="ExseptionLessonsHomeTask" />
@@ -60,19 +60,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Printer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Printer" />
-      <module name="ExseptionLessonsHomeTask" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TaskOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LessonOne.TaskOne" />
       <module name="ExseptionLessonsHomeTask" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="LessonOne.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LessonTwo.TaskTwo" />
+      <module name="ExseptionLessonsHomeTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LessonTwo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TaskTwo" />
         <item itemvalue="Application.LessonTwo.TaskOne" />
         <item itemvalue="Application.taskThree" />
         <item itemvalue="Application.taskTwo" />
         <item itemvalue="Application.TaskOne" />
-        <item itemvalue="Application.Printer" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +180,28 @@
       <option name="project" value="LOCAL" />
       <updated>1690265929684</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="finished LessonTwo.TaskOne">
+      <created>1690266872264</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690266872264</updated>
+    </task>
+    <task id="LOCAL-00009" summary="changed requestFromUserVariantTwo as entering a boolean variable">
+      <created>1690267153396</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690267153396</updated>
+    </task>
+    <task id="LOCAL-00010" summary="started work TaskTwo">
+      <created>1690267222043</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690267222043</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -186,6 +213,8 @@
     <MESSAGE value="created taskThree" />
     <MESSAGE value="start work LessonTwo and created TaskOne" />
     <MESSAGE value="finished LessonTwo.TaskOne" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished LessonTwo.TaskOne" />
+    <MESSAGE value="changed requestFromUserVariantTwo as entering a boolean variable" />
+    <MESSAGE value="started work TaskTwo" />
+    <option name="LAST_COMMIT_MESSAGE" value="started work TaskTwo" />
   </component>
 </project>
