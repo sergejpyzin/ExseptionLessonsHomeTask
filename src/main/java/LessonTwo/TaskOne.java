@@ -14,33 +14,32 @@ public class TaskOne {
         String massage = "Введите число: ";
         float numberFloat = requestFromUserVariantOne(massage);
         System.out.println(numberFloat);
-        float floatNumber = requestFromUserVariantTwo(massage);
-        System.out.println(floatNumber);
+        /*float floatNumber = requestFromUserVariantTwo(massage);
+        System.out.println(floatNumber);*/
 
     }
 
     /**
      * Эта функция проверяет на соответствие типу float ввод пользователя вариант 1 с использованием рекурсивного запроса
-     * @param massage  - сообщение для пользователя
-     * */
+     *
+     * @param massage - сообщение для пользователя
+     */
     public static float requestFromUserVariantOne(String massage) {
         Scanner scanner = new Scanner(System.in);
-        float result = 0;
-        System.out.print(massage);
+        System.out.println(massage);
         if (scanner.hasNextFloat()) {
-            result = scanner.nextFloat();
+            return Float.parseFloat(scanner.next());
         } else {
             System.err.println("Введено не число");
-            requestFromUserVariantOne(massage);
+            return requestFromUserVariantOne(massage);
         }
-        return result;
     }
 
     /**
      * Эта функция проверяет на соответствие типу float ввод пользователя вариант 2 с использованием цикла while()
      * и обработкой ошибки
-     * @param massage  - сообщение для пользователя
      *
+     * @param massage - сообщение для пользователя
      */
     public static float requestFromUserVariantTwo(String massage) {
         Scanner scanner = new Scanner(System.in);

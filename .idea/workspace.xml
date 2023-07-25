@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e7d1f17-9780-43e1-b604-74ef45d063e0" name="Changes" comment="start work LessonTwo and created TaskOne">
+    <list default="true" id="1e7d1f17-9780-43e1-b604-74ef45d063e0" name="Changes" comment="finished LessonTwo.TaskOne">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LessonTwo/TaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LessonTwo/TaskOne.java" afterDir="false" />
     </list>
@@ -167,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690261980604</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finished LessonTwo.TaskOne">
+      <created>1690265929684</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690265929684</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -178,6 +185,7 @@
     <MESSAGE value="finished taskTwo" />
     <MESSAGE value="created taskThree" />
     <MESSAGE value="start work LessonTwo and created TaskOne" />
-    <option name="LAST_COMMIT_MESSAGE" value="start work LessonTwo and created TaskOne" />
+    <MESSAGE value="finished LessonTwo.TaskOne" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished LessonTwo.TaskOne" />
   </component>
 </project>
