@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e7d1f17-9780-43e1-b604-74ef45d063e0" name="Changes" comment="changed TaskThird">
+    <list default="true" id="1e7d1f17-9780-43e1-b604-74ef45d063e0" name="Changes" comment="start work TaskFour">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LessonTwo/TaskThird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LessonTwo/TaskThird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LessonTwo/TaskFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LessonTwo/TaskFour.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +229,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690271822738</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="finished TaskThird">
+      <created>1690272706417</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1690272706417</updated>
+    </task>
+    <task id="LOCAL-00016" summary="start work TaskFour">
+      <created>1690272778065</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1690272778065</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -246,6 +260,8 @@
     <MESSAGE value="changed work TaskTwo" />
     <MESSAGE value="start work TaskThird" />
     <MESSAGE value="changed TaskThird" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed TaskThird" />
+    <MESSAGE value="finished TaskThird" />
+    <MESSAGE value="start work TaskFour" />
+    <option name="LAST_COMMIT_MESSAGE" value="start work TaskFour" />
   </component>
 </project>
