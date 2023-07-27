@@ -6,24 +6,20 @@ import java.util.Random;
 public class TaskTwo {
     // Если необходимо, исправьте данный код
     public static void main(String[] args) throws Exception {
-
+        // Создаем массив для проверки
         int[] intArray = createdArray(10, 5, 7);
         System.out.println(Arrays.toString(intArray));
 
-        int d = 4;
-        double catchedRes1 = (double) intArray[8] / d;
-        /*
-        В обработке деления на ноль нет необходимости т.к. при делении на ноль чисел с плавающей запятой результат
-        будет равен NaN или INFINITY, для дальнейшей обработки, если это будет необходимо, результатов NaN или INFINITY
-        "бросаем" новые исключения
-        */
-        if (Double.isNaN(catchedRes1)) {
-            throw new Exception("NaN");
-        } else if (Double.isInfinite(catchedRes1)) {
-            throw new Exception("INFINITY");
-        }
-        System.out.println("catchedRes1 = " + catchedRes1);
+        int d = 0;
 
+        try {
+            double catchedRes1 = (double) intArray[8] / d;
+            System.out.println("catchedRes1 = " + catchedRes1);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.err.println("Выход за пределы массива" + e.getMessage());
+        } catch (ArithmeticException e) {
+            System.err.println("Деление на ноль запрещено" + e.getMessage());
+        }
     }
 
     /**

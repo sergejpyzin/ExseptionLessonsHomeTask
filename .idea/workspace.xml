@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e7d1f17-9780-43e1-b604-74ef45d063e0" name="Changes" comment="start work TaskFour">
+    <list default="true" id="1e7d1f17-9780-43e1-b604-74ef45d063e0" name="Changes" comment="changed TaskFour">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LessonTwo/TaskFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LessonTwo/TaskFour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LessonTwo/TaskTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LessonTwo/TaskTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +47,22 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TaskThird">
+  <component name="RunManager" selected="Application.TaskFour">
     <configuration name="LessonTwo.TaskOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LessonTwo.TaskOne" />
+      <module name="ExseptionLessonsHomeTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LessonTwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LessonTwo.TaskFour" />
       <module name="ExseptionLessonsHomeTask" />
       <extension name="coverage">
         <pattern>
@@ -99,26 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="taskTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LessonOne.taskTwo" />
-      <module name="ExseptionLessonsHomeTask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LessonOne.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TaskThird" />
+        <item itemvalue="Application.TaskFour" />
         <item itemvalue="Application.TaskTwo" />
+        <item itemvalue="Application.TaskThird" />
         <item itemvalue="Application.LessonTwo.TaskOne" />
         <item itemvalue="Application.taskThree" />
-        <item itemvalue="Application.taskTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690272778065</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="changed TaskFour">
+      <created>1690306781200</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1690306781200</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -262,6 +270,7 @@
     <MESSAGE value="changed TaskThird" />
     <MESSAGE value="finished TaskThird" />
     <MESSAGE value="start work TaskFour" />
-    <option name="LAST_COMMIT_MESSAGE" value="start work TaskFour" />
+    <MESSAGE value="changed TaskFour" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed TaskFour" />
   </component>
 </project>
