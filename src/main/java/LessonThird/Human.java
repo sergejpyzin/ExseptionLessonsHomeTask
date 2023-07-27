@@ -5,10 +5,10 @@ public class Human {
     private String firstName;
     private String patronymic;
     private String date;
-    private Integer phoneNumber;
-    private Character gender;
+    private String phoneNumber;
+    private String gender;
 
-    public Human(String lastName, String firstName, String patronymic, String date, Integer phoneNumber, Character gender) {
+    public Human(String lastName, String firstName, String patronymic, String date, String phoneNumber, String gender) {
         this.lastName = lastName;
         this.firstName = firstName;
         this.patronymic = patronymic;
@@ -19,13 +19,6 @@ public class Human {
 
     @Override
     public String toString() {
-        return "Human{" +
-                "lastName='" + lastName + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", patronymic='" + patronymic + '\'' +
-                ", date='" + date + '\'' +
-                ", phoneNumber=" + phoneNumber +
-                ", gender=" + gender +
-                '}';
+        return String.format("<%s><%s><%s><%s><%s><%s>\n", lastName, firstName, patronymic, date, phoneNumber, gender);
     }
 }
