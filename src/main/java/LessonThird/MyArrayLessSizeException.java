@@ -1,7 +1,7 @@
 package LessonThird;
 
-public class MyArraySizeLessException extends RuntimeException {
-    public MyArraySizeLessException() {
+public class MyArrayLessSizeException extends RuntimeException {
+    public MyArrayLessSizeException() {
         super("Введенные данные меньше необходимых");
     }
 }
