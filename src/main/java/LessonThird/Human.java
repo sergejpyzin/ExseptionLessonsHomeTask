@@ -17,6 +17,8 @@ public class Human {
         this.gender = gender;
     }
 
+
+
     @Override
     public String toString() {
         return String.format("<%s><%s><%s><%s><%s><%s>\n", lastName, firstName, patronymic, date, phoneNumber, gender);
