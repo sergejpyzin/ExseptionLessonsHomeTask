@@ -16,7 +16,7 @@ public class Main {
         Human me = new Human(date[0], date[1], date[2], date[3], date[4], date[5]);
         System.out.println(me);
 
-        String somePathName = "src\\main\\java\\LessonThird\\UserDateFile\\" + date[0] + ".txt";
+        /*String somePathName = "src\\main\\java\\LessonThird\\UserDateFile\\" + date[0] + ".txt";
 
 
         File file = new File(somePathName);
@@ -32,12 +32,19 @@ public class Main {
         }
         catch (IOException e) {
             System.out.println(e.getMessage());
-        }
+        }*/
 
 
     }
         static String[] requestInformation () {
             Scanner scanner = new Scanner(System.in);
-            return scanner.nextLine().split("\\s+");
+            String [] userAnswer = scanner.nextLine().split("\\s+");
+            if (userAnswer.length < 6){
+                throw new MyArraySizeLessException();
+            }
+            if (userAnswer.length > 6){
+                throw new RuntimeException("Введенные данные больше необходимых");
+            }
+            return userAnswer;
         }
 }

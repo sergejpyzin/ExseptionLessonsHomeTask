@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e7d1f17-9780-43e1-b604-74ef45d063e0" name="Changes" comment="created MyArraySizeException">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LessonThird/MyArraySizeLessException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LessonThird/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LessonThird/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LessonThird/MyArraySizeException.java" beforeDir="false" />
+    <list default="true" id="1e7d1f17-9780-43e1-b604-74ef45d063e0" name="Changes" comment="changed MyArraySizeException on MyArraySizeLessException">
+      <change beforePath="$PROJECT_DIR$/src/main/java/LessonThird/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LessonThird/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690525795911</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="changed MyArraySizeException on MyArraySizeLessException">
+      <created>1690528078257</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1690528078257</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -316,6 +320,7 @@
     <MESSAGE value="created class Human in LessonThird" />
     <MESSAGE value="finished test method" />
     <MESSAGE value="created MyArraySizeException" />
-    <option name="LAST_COMMIT_MESSAGE" value="created MyArraySizeException" />
+    <MESSAGE value="changed MyArraySizeException on MyArraySizeLessException" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed MyArraySizeException on MyArraySizeLessException" />
   </component>
 </project>
