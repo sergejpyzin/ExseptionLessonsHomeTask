@@ -50,6 +50,7 @@ public class Main {
             System.out.println("Вы хотите продолжить? q - выход из программы, y - продолжить");
             exit = sc.nextLine();
         } while (!exit.equalsIgnoreCase("q"));
+        System.exit(0);
 
     }
 
@@ -57,10 +58,18 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String[] userAnswer = scanner.nextLine().replace(",", ".").split("\\s+");
         if (userAnswer.length < 6) {
-            throw new MyArrayLessSizeException();
+            try {
+                throw new MyArrayLessSizeException();
+            } catch (RuntimeException e) {
+                e.printStackTrace();
+            }
         }
         if (userAnswer.length > 6) {
-            throw new MyArrayOverSizeException();
+            try {
+                throw new MyArrayOverSizeException();
+            } catch (ArrayIndexOutOfBoundsException e) {
+                e.printStackTrace();
+            }
         }
         return userAnswer;
     }

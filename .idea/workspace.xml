@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e7d1f17-9780-43e1-b604-74ef45d063e0" name="Changes" comment="created FileWorker">
+    <list default="true" id="1e7d1f17-9780-43e1-b604-74ef45d063e0" name="Changes" comment="created method work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LessonThird/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LessonThird/Main.java" afterDir="false" />
     </list>
@@ -311,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690569302289</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="created method work">
+      <created>1690634915482</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1690634915482</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -339,6 +346,7 @@
     <MESSAGE value="changed MyArraySizeException on MyArraySizeLessException" />
     <MESSAGE value="created MyArrayOverSizeException" />
     <MESSAGE value="created FileWorker" />
-    <option name="LAST_COMMIT_MESSAGE" value="created FileWorker" />
+    <MESSAGE value="created method work" />
+    <option name="LAST_COMMIT_MESSAGE" value="created method work" />
   </component>
 </project>
