@@ -59,14 +59,14 @@ public class Main {
         String[] userAnswer = scanner.nextLine().replace(",", ".").split("\\s+");
         if (userAnswer.length < 6) {
             try {
-                throw new MyArrayLessSizeException();
-            } catch (RuntimeException e) {
+                throw new ArrayIndexOutOfBoundsException();
+            } catch (ArrayIndexOutOfBoundsException e) {
                 e.printStackTrace();
             }
         }
         if (userAnswer.length > 6) {
             try {
-                throw new MyArrayOverSizeException();
+                throw new ArrayIndexOutOfBoundsException();
             } catch (ArrayIndexOutOfBoundsException e) {
                 e.printStackTrace();
             }
