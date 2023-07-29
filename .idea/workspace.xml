@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e7d1f17-9780-43e1-b604-74ef45d063e0" name="Changes" comment="changed method work">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1e7d1f17-9780-43e1-b604-74ef45d063e0" name="Changes" comment="deleted class MyArrayLessSizeException and MyArrayOverSizeException">
+      <change beforePath="$PROJECT_DIR$/src/main/java/LessonThird/UserDateFile/Пызин.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -324,11 +324,17 @@
       <option name="project" value="LOCAL" />
       <updated>1690635729534</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="deleted class MyArrayLessSizeException and MyArrayOverSizeException">
+      <created>1690636652987</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1690636652987</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="deleted LessonOne class and create package LessonOne and TaskOne file" />
     <MESSAGE value="finished TaskOne" />
     <MESSAGE value="finished TaskOne and created taskTwo" />
     <MESSAGE value="finished taskTwo" />
@@ -353,6 +359,7 @@
     <MESSAGE value="created FileWorker" />
     <MESSAGE value="created method work" />
     <MESSAGE value="changed method work" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed method work" />
+    <MESSAGE value="deleted class MyArrayLessSizeException and MyArrayOverSizeException" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted class MyArrayLessSizeException and MyArrayOverSizeException" />
   </component>
 </project>
