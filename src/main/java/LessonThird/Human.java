@@ -1,12 +1,12 @@
 package LessonThird;
 
 public class Human {
-    private String lastName;
-    private String firstName;
-    private String patronymic;
-    private String date;
-    private int phoneNumber;
-    private String gender;
+    private final String lastName;
+    private final String firstName;
+    private final String patronymic;
+    private final String date;
+    private final int phoneNumber;
+    private final String gender;
 
     public Human(String lastName, String firstName, String patronymic, String date, int phoneNumber, String gender) {
         this.lastName = lastName;

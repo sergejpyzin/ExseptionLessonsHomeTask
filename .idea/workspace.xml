@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e7d1f17-9780-43e1-b604-74ef45d063e0" name="Changes" comment="created UniversityApp and deleted all files in UserDataFile">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1e7d1f17-9780-43e1-b604-74ef45d063e0" name="Changes" comment="changed UniversityApp and finished work">
+      <change beforePath="$PROJECT_DIR$/src/main/java/LessonThird/FileWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LessonThird/FileWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LessonThird/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LessonThird/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LessonThird/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LessonThird/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LessonThird/UniversityApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LessonThird/UniversityApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -339,11 +341,17 @@
       <option name="project" value="LOCAL" />
       <updated>1690637070582</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="changed UniversityApp and finished work">
+      <created>1690637879678</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1690637879678</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="finished TaskOne and created taskTwo" />
     <MESSAGE value="finished taskTwo" />
     <MESSAGE value="created taskThree" />
     <MESSAGE value="start work LessonTwo and created TaskOne" />
@@ -368,6 +376,7 @@
     <MESSAGE value="changed method work" />
     <MESSAGE value="deleted class MyArrayLessSizeException and MyArrayOverSizeException" />
     <MESSAGE value="created UniversityApp and deleted all files in UserDataFile" />
-    <option name="LAST_COMMIT_MESSAGE" value="created UniversityApp and deleted all files in UserDataFile" />
+    <MESSAGE value="changed UniversityApp and finished work" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed UniversityApp and finished work" />
   </component>
 </project>
